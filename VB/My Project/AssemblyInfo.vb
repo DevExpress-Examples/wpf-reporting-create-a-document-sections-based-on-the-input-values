@@ -1,4 +1,4 @@
-﻿Imports Microsoft.VisualBasic
+Imports Microsoft.VisualBasic
 Imports System.Reflection
 Imports System.Resources
 Imports System.Runtime.CompilerServices
