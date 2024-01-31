@@ -3,17 +3,14 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E2942)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+# Reporting for WPF - Create a Document Sections Based on the Input Values
+
+This example illustrates how to generate a document according to user input. To pass specific values to the document's detail section, assign these values to the `e.Data` parameter of the [SimpleLink.CreateDetail](https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.SimpleLink.CreateDetail) event. As for the report page header (footer) sections, override their `DataContext`, which is accessible through the corresponding Link properties. For instance, use the [TemplatedLink.PageHeaderData](https://docs.devexpress.com/WPF/DevExpress.Xpf.Printing.TemplatedLink.PageHeaderData) property to set the data context of a `PageHeader`.
+
+## Files to Review
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 * **[MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))**
-<!-- default file list end -->
-# How to create a document sections based on the values, entered by an end-user
 
-
-<p>This example illustrates how to generate a document according to the end-user input. To pass specific values to the document's detail section, you just need to assign these values to the e.Data parameter of the <a href="http://documentation.devexpress.com/#WPF/DevExpressXpfPrintingSimpleLink_CreateDetailtopic"><u>SimpleLink.CreateDetail Event</u></a>. As for the report (page) header (footer) sections, it is necessary to override their DataContext, which is accessible via the corresponding Link properties. For instance, use the <a href="http://documentation.devexpress.com/#WPF/DevExpressXpfPrintingTemplatedLink_PageHeaderDatatopic"><u>TemplatedLink.PageHeaderData Property</u></a> to set the data context of a PageHeader.</p><p><strong>NOTE:</strong> We have a suggestion to enable printing in marginal sections of a document: <a href="https://www.devexpress.com/Support/Center/p/S35716">Links - Provide the capability to define a print template for the TopMargin and BottomMargin areas of a page</a></p>
-
-<br/>
 
 
