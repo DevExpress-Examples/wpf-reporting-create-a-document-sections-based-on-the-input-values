@@ -9,15 +9,13 @@
     <ProjectGuid>{5189D128-734D-4046-81BE-F12C8A650FFD}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <AssemblyName>PrintDocumentFromUIWpf</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
-    <FileUpgradeFlags>
-    </FileUpgradeFlags>
+    <FileUpgradeFlags></FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
     <UpgradeBackupLocation />
     <BaseIntermediateOutputPath>obj.NetFX</BaseIntermediateOutputPath>
@@ -42,46 +40,49 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Pdf.v23.1.Core">
+    <Reference Include="DevExpress.Pdf.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Office.v23.1.Core">
+    <Reference Include="DevExpress.Office.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v23.1.Core">
+    <Reference Include="DevExpress.RichEdit.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.RichEdit.v23.1.Export">
+    <Reference Include="DevExpress.RichEdit.v24.2.Export">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Printing.v23.1.Core">
+    <Reference Include="DevExpress.Printing.v24.2.Core">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Drawing.v23.1">
+    <Reference Include="DevExpress.Drawing.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.v23.1">
+    <Reference Include="DevExpress.Data.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.CodeView.v23.1">
+    <Reference Include="DevExpress.Xpf.CodeView.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Data.Desktop.v23.1">
+    <Reference Include="DevExpress.Data.Desktop.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v23.1">
+    <Reference Include="DevExpress.Xpf.Core.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Docking.v23.1">
+    <Reference Include="DevExpress.Xpf.Docking.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v23.1">
+    <Reference Include="DevExpress.Mvvm.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Printing.v23.1">
+    <Reference Include="DevExpress.Xpf.Controls.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
-    <Reference Include="DevExpress.Xpf.Ribbon.v23.1">
+    <Reference Include="DevExpress.Xpf.Printing.v24.2">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Ribbon.v24.2">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="System" />
